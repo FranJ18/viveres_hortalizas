@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.jpg">
+    <title>Viveres y Hortalizas J&A</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__banner" src="img/Banner.jpeg" alt="banner">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="index.html">Inicio</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nuestro Negocio</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="contacto.html">Contáctanos</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Contáctanos</h1>
+
+        <form class="formulario" action="">
+            <fieldset>
+                <legend>Contáctanos llenando todos los campos</legend>
+                <div class="contenedor__campos">
+                    <div class="campos">
+                        <label>Nombre</label>
+                        <input class="input-text" type="text" placeholder="Tu Nombre">
+                    </div>
+                    <div class="campos">
+                        <label>Teléfono</label>
+                        <input class="input-text" type="tel" placeholder="Tu Teléfono">
+                    </div>
+                    <div class="campos">
+                        <label>Correo</label>
+                        <input class="input-text" type="email" placeholder="Tu Email">
+                    </div>
+                    <div class="campos">
+                        <label>Mensaje</label>
+                        <textarea class="input-text"></textarea>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <input class="boton" type="submit" value="Enviar">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Víveres y Hortalizas J&A - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
